@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,54 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
 
-        <video id="videoAnime" src="/assets/Lil Nas X , Jack Harlow - INDUSTRY BABY 「AMV」Anime Mix ᴴᴰ.mp4" class="video">
+        <video id="video" src="/assets/Lil Nas X , Jack Harlow - INDUSTRY BABY 「AMV」Anime Mix ᴴᴰ.mp4" class="video">
 
         </video>
-        <div class="control">
-            <img class="btn" onclick="backward()" src="assets/btns/backward.svg"  alt="">
+        <div class="controls">
+            <img class="btn" onclick="backward()" src="assets/btns/backward.svg" alt="">
             <img class="btn" onclick="forward()" src="assets/btns/forward.svg" alt="">
             <img class="btn" onclick="decrease()" src="assets/btns/speedDown.svg" alt="">
-            <img class="btn" onclick="increase()" src="assets/btns/speedUp.svg"alt="">
+            <img class="btn" onclick="increase()" src="assets/btns/speedUp.svg" alt="">
             <img class="btn" onclick="play()" src="assets/btns/play.svg" alt="">
             <img class="btn" onclick="stop()" src="assets/btns/stop.svg" alt="">
-    
         </div>
-
+        <div class="instruction">
+            <h2>Instruções
+                <ul>
+                    <li>
+                        <img class="list-item" src="assets/btns/backward.svg" alt="" srcset="">
+                        <p>Retrocede 15 segungos</p>
+                    </li>
+                    <li>
+                        <img class="list-item" src="assets/btns/forward.svg" alt="" srcset="">
+                        <p>Avança 15 segungos</p>
+                    </li>
+                    <li>
+                        <img class="list-item" src="assets/btns/speedDown.svg" alt="" srcset="">
+                        <p>Diminui a velocidade de reprodução</p>
+                    </li>
+                    <li>
+                        <img class="list-item" src="assets/btns/speedUp.svg" alt="" srcset="">
+                        <p>Aumenta a velocidade de reprodução</p>
+                    </li>
+                    <li>
+                        <img class="list-item" src="assets/btns/play.svg" alt="" srcset="">
+                        <p>Play quando estiver parado e pause quando estiver tocando</p>
+                    </li>
+                    <li>
+                        <img class="list-item" src="assets/btns/stop.svg" alt="" srcset="">
+                        <p>Para o vídeo e volta para o início</p>
+                    </li>
+                </ul>
+            </h2>
+        </div>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

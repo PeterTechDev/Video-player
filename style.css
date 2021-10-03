@@ -9,7 +9,8 @@
     width: 100%;
 }
 
-.control{
+.controls{
+    /* display: hidden; */
     width: 100%;
     height: 100%;
     border: 1px solid #000;
@@ -18,6 +19,7 @@
     text-align: center;
 }
 
+
 .btn{
     position: relative;
     width: 60px;
@@ -25,5 +27,17 @@
     top: 100%;
     transform: translateY(-100%); 
     /* tamanho do próprio btn */
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+/* li:hover{
+    display: none;
+} */
+
+.list-item{
+    height: 30px;
 
 }
