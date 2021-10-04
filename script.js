@@ -1,5 +1,6 @@
 let video = document.getElementById('video');
 
+
 const backward=()=>{
     video.currentTime -= 15
 }
